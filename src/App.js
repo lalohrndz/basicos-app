@@ -2,6 +2,8 @@ import React from 'react'
 import logo from './logo.svg';
 import './App.css';
 import Componente from './components/Componente';
+import Propiedades from './components/Propiedades';
+import Estado from './components/estado';
 
 function App() {
   return (
@@ -20,12 +22,25 @@ function App() {
           >
           Learn React
         </a>
+        <section>
+          <Componente msg="hola hola"/>
+          <hr/>
+          {/* https://jonmircha.com/react#componentes */}
+          <Propiedades
+          cadena="cadena de texto"
+          numero={123}
+          boleano={false}
+          arreglo={[1,2,3]}
+          objeto={{nombre:"lalo", correo:"edo.pstr@gmail.com"}}
+          elementoReact={<i>Esto es un elemento React</i>}
+          function={num => num * num}
+          componenteReact={<Componente msg="Soy un componente pasado como prop"/>}
+          />
+
+          <estado/>
+        </section>
       </header>
     </div>
-    <section>
-      <Componente msg="hola hola"/>
-      
-    </section>
   </>
   );
 }

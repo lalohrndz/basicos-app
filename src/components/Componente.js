@@ -1,13 +1,13 @@
 import React, {Component} from "react";
 
-
-function Componente(porps){
-    return <h2>{this.props.msg}</h2>;
-}
-/* class Componente extends Component{
-    render(){
+class Componente extends Component{
+/*     render(){
         return <h2>{this.props.msg}</h2>;
+    } */
+
+    render(){
+        return <h4>{this.props.msg}</h4>
     }
-} */
+}
 
 export default Componente;
