@@ -4,6 +4,7 @@ import './App.css';
 import Componente from './components/Componente';
 import Propiedades from './components/Propiedades';
 import Estado from './components/Estado';
+import RenderizadoElementos from './components/RenderizadoElementos';
 
 function App() {
   return (
@@ -38,6 +39,8 @@ function App() {
           />
 
           <Estado />
+
+          <RenderizadoElementos/>
         </section>
       </header>
     </div>
