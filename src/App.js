@@ -7,6 +7,7 @@ import Estado from './components/Estado';
 import RenderizadoElementos from './components/RenderizadoElementos';
 import {EventosES6, EventosES7} from './components/Eventos';
 import {MasSobreEventos} from './components/Eventos';
+import ComunicacionComponentes from './components/ComunicacionComponentes';
 
 function App() {
   return (
@@ -49,6 +50,9 @@ function App() {
           <EventosES7/>
           <hr />
           <MasSobreEventos/>
+
+          <hr />
+          <ComunicacionComponentes/>
         </section>
       </header>
     </div>
