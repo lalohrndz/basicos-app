@@ -9,6 +9,7 @@ import {EventosES6, EventosES7} from './components/Eventos';
 import {MasSobreEventos} from './components/Eventos';
 import ComunicacionComponentes from './components/ComunicacionComponentes';
 import CicloVida from './components/CicloVida';
+import AjasApis from './components/AjaxApis';
 
 function App() {
   return (
@@ -57,6 +58,9 @@ function App() {
 
           <hr />
           <CicloVida/>
+
+          <hr />
+          <AjasApis/>
         </section>
       </header>
     </div>
