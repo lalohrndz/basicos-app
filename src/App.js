@@ -10,6 +10,7 @@ import {MasSobreEventos} from './components/Eventos';
 import ComunicacionComponentes from './components/ComunicacionComponentes';
 import CicloVida from './components/CicloVida';
 import AjasApis from './components/AjaxApis';
+import ContadorHooks from './components/ContadorHooks';
 
 function App() {
   return (
@@ -61,6 +62,9 @@ function App() {
 
           <hr />
           <AjasApis/>
+
+          <hr />
+          <ContadorHooks/>
         </section>
       </header>
     </div>
