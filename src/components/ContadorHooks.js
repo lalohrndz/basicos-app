@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-export default function ContadorHooks (){
+export default function ContadorHooks (props){
     const [contador, setContador] = useState(0);
     /* console.log(useState()) */
 
