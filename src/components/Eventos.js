@@ -13,14 +13,14 @@ export class EventosES6 extends Componente{
     }
 
     sumar(){
-        console.log("Sumando");
+        /* console.log("Sumando"); */
         this.setState({
             contador: this.state.contador + 1
         })
     }
 
     restar(){
-        console.log("Restando");
+        /* console.log("Restando"); */
         this.setState({
             contador: this.state.contador - 1
         })
